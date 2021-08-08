@@ -13,7 +13,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivitySplashBinding.inflate(layoutInflater)
-         Toast.makeText(applicationContext,"im Called",Toast.LENGTH_SHORT).show()
+//         Toast.makeText(applicationContext,"im Called",Toast.LENGTH_SHORT).show()
         Handler().postDelayed({
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
